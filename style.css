@@ -41,7 +41,7 @@ hr{
     -webkit-background-size: cover;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 
 
 }
@@ -49,7 +49,7 @@ hr{
     text-align: center;
     align-items: center;
     padding-top: 23vh;
-    padding-bottom: 50px;
+    padding-bottom: 23px;
 
 
 }
@@ -100,7 +100,7 @@ hr{
 
 }
 .header__text{
-    font-size: 30px;
+    font-size: 25px;
     color: #ccc;
     line-height: 1.4;
     max-width: 850px;
@@ -109,11 +109,11 @@ hr{
     font-family: 'Montserrat', sans-serif;
 }
 .header__social {
-    padding-top: 50px;
+    padding-top: 30px;
 
     justify-content: center;
     text-align: center;
-
+    padding-bottom: 23vh;
     align-items: center;
 }
 
@@ -207,7 +207,7 @@ hr{
 /*career*/
 .career{
     width: 100%;
-    height: 2200px;
+    height: 1500px;
     background: #C4DFE6;
     padding: 192px 0 128px 0 ;
     position: absolute;
@@ -215,12 +215,17 @@ hr{
 .career__content{
     display: flex;
     justify-content: space-between;
+    color: #000;
+    padding: 60px 0;
+}
+.career__content:first-child{
+    padding: 0 0 60px 0;
 }
 .career__name{
     font-size: 31px;
-
+    color: #003B46;
     letter-spacing: .25em;
-    width: 20%;
+
 }
 .career__name:after {
     content: "";
@@ -230,16 +235,48 @@ hr{
     background-color: #07575B;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 1px;
 }
 .career__subname{
     font-size: 35px;
     font-weight: 700;
     font-family: 'inter', sans-serif;
-    color: #000;
+    color: #003B46;
     letter-spacing: .03em;
     margin-bottom: 8px;
 }
-.career__block{
-    width: 70%;
+.career__subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 22px;
 }
+.career__date{
+    color: #003B46;
+    text-transform: uppercase;
+}
+.career__date::before {
+    content: "\2022";
+    color: #003B46;
+    margin-right: 2px;
+
+}
+.career__group{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.career__text{
+    color: #003B46;
+    line-height: 1.5;
+    font-size: 21px;
+    padding-bottom: 60px;
+}
+
+/*creation*/
+.creation{
+    width: 100%;
+    height: 1500px;
+    background: #C4DFE6;
+}
+/*<div class="s-hero__bg rellax" data-rellax-speed="-7" style="transform: translate3d(0px, 0px, 0px);"></div>*/
